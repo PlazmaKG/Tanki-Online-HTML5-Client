@@ -31,7 +31,7 @@ namespace TOHC
             {
                 Application.Run(new Game(Properties.Settings.Default.Selected));
             }
-            Application.Exit();
+            Environment.Exit(0);
         }
     }
 }

@@ -37,5 +37,10 @@ namespace TOHC
         {
             System.Diagnostics.Process.Start("https://discord.gg/NXQCUKM");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/PlazmaKG/Tanki-Online-HTML5-Client");
+        }
     }
 }
